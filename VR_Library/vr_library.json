@@ -1,0 +1,60 @@
+{
+      "default_bindings": [
+         {
+            "controller_type" : "vive_controller",
+            "binding_url" : "vr_library_bindings.json"
+         }
+      ], 
+  "actions": [
+    {
+      "name": "/actions/demo/in/SelectButton",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/demo/in/MenuButton",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/demo/in/GripButton",
+      "type": "boolean"
+    },
+	{
+      "name": "/actions/demo/in/TouchpadButton",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/demo/in/AnalogInput",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/demo/in/Hand_Right",
+      "type": "pose"
+    },
+    {
+      "name": "/actions/demo/in/Hand_Left",
+      "type": "pose"
+    },
+    {
+      "name": "/actions/demo/out/haptic_left",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/demo/out/haptic_right",
+      "type": "boolean"
+    }
+  ],
+    "localization" : [
+        {
+            "language_tag": "en_US",
+            "/actions/demo/in/SelectButton" : "Select Button",
+            "/actions/demo/in/MenuButton" : "Menu Button",
+            "/actions/demo/in/GripButton" : "Grip Button",
+            "/actions/demo/in/AnalogInput" : "Analog Input",
+			"/actions/demo/in/TouchpadButton" : "Touchpad Button",
+            "/actions/demo/in/Hand_Right" : "Right Hand Pose",
+            "/actions/demo/in/Hand_Left" : "Left Hand Pose",
+            "/actions/demo/out/haptic_left" : "Left Haptic Feedback",
+            "/actions/demo/out/haptic_right" : "Right Haptic Feedback"
+        }
+    ]
+}

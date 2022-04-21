@@ -1,0 +1,3 @@
+[submodule "VR_Library/openvr"]
+	path = VR_Library/openvr
+	url = https://github.com/ValveSoftware/openvr
